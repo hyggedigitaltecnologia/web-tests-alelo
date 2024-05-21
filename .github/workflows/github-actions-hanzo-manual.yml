@@ -42,7 +42,7 @@ jobs:
 
       - name: Run Hanzo Web Tests
         run: |
-          robot --variable COMPONENTE:${{ inputs.componente }} --variable TAG:${{ inputs.tag }} --variable BROWSER:${{ inputs.browser }} controller.robot
+          robot --variable COMPONENT:${{ inputs.componente }} --variable TAG:${{ inputs.tag }} --variable BROWSER:${{ inputs.browser }} controller.robot
 
       - name: Upload Tests Results
         if: always()
