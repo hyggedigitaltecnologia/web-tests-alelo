@@ -5,15 +5,15 @@ on:
     inputs:
       component:
         type: string
-        description: Qual é o COMPONENTE a ser executado?
+        description: What is the COMPONENT to be executed?
         required: true
       tag:
         type: string
-        description: Qual é a TAG a ser executada?
+        description: What is the TAG to be executed?
         required: true
       browser:
         type: string
-        description: Qual é o BROWSER a ser executado?
+        description: What is the BROWSER to be run?
         required: true
 
 jobs:

@@ -144,52 +144,52 @@ robot --variable COMPONENT:my_account/tests/my_account_tests.robot --variable TA
 ```
 ![alt text](images/image-5.png)
 
-<!-- # Executando no GitHub Actions
+# Running on GitHub Actions
 
-Acesse as [actions](https://github.com/hyggedigitaltecnologia/web_tests_agibank/actions) e siga os passos:
+Access [actions](https://github.com/hyggedigitaltecnologia/web-tests-hanzo/actions) and follow the steps:
 
-1. Clique em "Manual Run WEB Tests".
+1. Click on "Manual Run WEB Tests".
 
 ![alt text](images/image-6.png)
 
-2. Clique em "Run workflow".
+2. Click on "Run workflow".
 
 ![alt text](images/image-7.png)
 
-3. Preencha os campos de tal forma que:
+3. Fill in the fields so that:
 
 ```bash
-Qual é o COMPONENTE a ser executado?
+What is the COMPONENT to be executed?
 
--> pesquisa/tests/pesquisa_tests.robot
+-> research/tests/pesquisa_tests.robot
 
-Qual é a TAG a ser executada?
+What is the TAG to be executed?
 
 -> test
 
-Qual é o BROWSER a ser executado?
+What is the BROWSER to be run?
 
 -> chrome
 ```
 
 ![alt text](images/image-8.png)
 
-4. Clique em "Run worflow".
+4. Click "Run workflow".
 
 ![alt text](images/image-9.png)
 
-5. Aguarde a execução.
+5. Wait for execution.
 
 ![alt text](images/image-10.png)
 
-6. Acesse o run.
+6. Access the run.
 
 ![alt text](images/image-11.png)
 
-7. Tenha acesso ao relatório para download e os dados de execução.
+7. Access the downloadable report and execution data.
 
 ![alt text](images/image-12.png)
 
-# Execução do Projeto
+# Project Execution
 
-https://github.com/hyggedigitaltecnologia/web_tests_agibank/assets/104523199/5d7d75b4-e051-45ea-9e99-ddee43132114 -->
+https://github.com/hyggedigitaltecnologia/web_tests_agibank/assets/104523199/5d7d75b4-e051-45ea-9e99-ddee43132114
