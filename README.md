@@ -161,11 +161,11 @@ Access [actions](https://github.com/hyggedigitaltecnologia/web-tests-hanzo/actio
 ```bash
 What is the COMPONENT to be executed?
 
--> research/tests/pesquisa_tests.robot
+-> my_account/tests/my_account_tests.robot
 
 What is the TAG to be executed?
 
--> test
+-> successful_registration
 
 What is the BROWSER to be run?
 
