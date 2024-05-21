@@ -1,5 +1,5 @@
 name: Run WEB Tests
-run-name: Agi - Web Tests Run
+run-name: Hanzo - Web Tests Run
 on: [push]
 
 jobs:
@@ -26,7 +26,7 @@ jobs:
           pip install -U -r requirements.txt
           rfbrowser init
 
-      - name: Run Agi Web Tests
+      - name: Run Hanzo Web Tests
         run: |
           robot --variable COMPONENT:my_account/tests/my_account_tests.robot --variable TAG:successful_registration --variable BROWSER:chrome controller.robot
 
