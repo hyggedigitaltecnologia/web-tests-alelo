@@ -3,7 +3,7 @@ run-name: Hanzo - Manual Web Tests Run
 on:
   workflow_dispatch:
     inputs:
-      componente:
+      component:
         type: string
         description: Qual é o COMPONENTE a ser executado?
         required: true
@@ -42,7 +42,7 @@ jobs:
 
       - name: Run Hanzo Web Tests
         run: |
-          robot --variable COMPONENT:${{ inputs.componente }} --variable TAG:${{ inputs.tag }} --variable BROWSER:${{ inputs.browser }} controller.robot
+          robot --variable COMPONENT:${{ inputs.component }} --variable TAG:${{ inputs.tag }} --variable BROWSER:${{ inputs.browser }} controller.robot
 
       - name: Upload Tests Results
         if: always()
